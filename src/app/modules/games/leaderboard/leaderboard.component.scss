@@ -1,0 +1,12 @@
+::ng-deep{
+    .filter_btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: SPACE-EVENLY;
+        align-items: center;
+    }
+    .p-datatable-table-container{
+        display: flex;
+        justify-content: center;
+    }
+}

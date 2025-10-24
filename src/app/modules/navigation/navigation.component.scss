@@ -1,0 +1,31 @@
+::ng-deep p-menubarsub {
+  width: 770px;
+  ul{
+    display: flex;
+
+    li:nth-child(4){
+        margin-left: auto;
+        pointer-events: none;
+    }
+  }
+  
+}
+
+@media (max-width: 1024px){
+  ::ng-deep{
+    .card{
+      width: 480px;
+      p-menubarsub{
+        width: 480px;
+        height: 32px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: 15px;
+      }
+      .p-menubar-root-list {
+        flex-wrap: nowrap !important;
+      }
+    }
+  }
+}

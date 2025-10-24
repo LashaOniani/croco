@@ -1,0 +1,12 @@
+<div class="triflex">
+    <div class="triangle"></div>
+</div>
+<div class="circle">
+    @for (sector of sectors; track $index) {
+        <div class="sector {{$index}}" [style.background]="sector.background" [style.transform]="'rotate(' + $index * 36 + 'deg) skewY(-50deg)'"> {{ $index + 1 }}</div>
+    }
+    <button id="spinbutton" (click)="spin()">დაატრუალე</button>
+</div>
+<div>
+    <app-leaderboard></app-leaderboard>
+</div>

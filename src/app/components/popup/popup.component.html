@@ -1,0 +1,5 @@
+<p-dialog header="post" [modal]="true" [(visible)]="dispPopUp" (onHide)="popupdisplayed()" [style]="{ width: '25rem' }">
+    <P>ავტორი: {{postInfo.user.name}}</P>
+    <span style="display: flex; flex-direction: row; align-items: center;">სათაური: <p style="margin-left: 8px;">{{postInfo.title}}</p> </span>
+    <p>ტექსტი: {{postInfo.body}}</p>
+</p-dialog>

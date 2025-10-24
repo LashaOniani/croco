@@ -1,0 +1,53 @@
+.circle{
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    // border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.triflex{
+    display: flex;
+    justify-content: center;
+}
+.triangle{
+    position: absolute;
+    top: 112px;
+    width: 14px;
+    height: 14px;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top: 30px solid rgb(16, 227, 255);
+    margin-top: -1rem;
+    z-index: 999;
+}
+
+.sector {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 36.5%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    clip-path: polygon(0 0, 66% 0, 99% 92%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#spinbutton{
+    display: flex;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: white;
+    color: black;
+    z-index: 999;
+    margin-top: 11rem;
+}

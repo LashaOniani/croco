@@ -1,0 +1,16 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .app-lvl{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .app-body{
+            border: 1px solid var(--p-menubar-border-color);
+            border-radius: var(--p-menubar-border-radius);
+        }
+    }
+}
